@@ -1,0 +1,57 @@
+.contenedor{
+    width: 70%;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+}
+
+.logo{
+    width: 100px;
+    height: 40px;
+}
+
+.usuario{
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foto-perfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+nav{
+    text-align: center;
+    padding: 0 50px;
+    border: red 2px solid;
+}
+
+.menu span{
+    padding: 0 20px;
+}
+
+.posteos{
+    border: black 2px solid;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+img{
+    background-color: white;
+    width: 280px;
+    height: 280px;
+}
+
+
+
+
